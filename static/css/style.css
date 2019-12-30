@@ -1,0 +1,22 @@
+section {
+  text-align: left;
+}
+
+body {
+  font-family: Verdana;
+}
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+img {
+  max-width: 60%;
+  height: auto;
+}
