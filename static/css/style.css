@@ -7,16 +7,16 @@ body {
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 140%;
+  font-size: 120%;
   font-weight: bold;
 }
 
 img {
-  max-width: 60%;
+  max-width: 40%;
   height: auto;
 }
