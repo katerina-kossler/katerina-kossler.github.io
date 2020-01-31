@@ -4,19 +4,26 @@ section {
 
 body {
   font-family: Verdana;
+  background-color: #ffffff;
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 140%;
+  font-size: 120%;
   font-weight: bold;
+  color: #1c304a;
 }
 
 img {
-  max-width: 60%;
+  max-width: 40%;
   height: auto;
+}
+
+#title {
+  background-color: #046b99;
+  color: #ffffff;
 }
