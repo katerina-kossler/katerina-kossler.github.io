@@ -4,6 +4,7 @@ section {
 
 body {
   font-family: Verdana;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -14,9 +15,15 @@ h1 {
 h2 {
   font-size: 120%;
   font-weight: bold;
+  color: #1c304a;
 }
 
 img {
   max-width: 40%;
   height: auto;
+}
+
+#title {
+  background-color: #046b99;
+  color: #ffffff;
 }
