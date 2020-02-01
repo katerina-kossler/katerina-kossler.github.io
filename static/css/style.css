@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-size: 150%;
+  font-size: 200%;
   font-weight: bold;
   color: #659d89;
 }
@@ -24,6 +24,6 @@ p {
 }
 
 img {
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
 }
