@@ -1,29 +1,28 @@
+* {
+  background-color: #f8f8f7;
+}
+
 section {
   text-align: left;
 }
 
 body {
   font-family: Verdana;
-  background-color: #ffffff;
 }
 
 h1 {
   font-size: 150%;
   font-weight: bold;
+  color: #333333;
 }
 
 h2 {
   font-size: 120%;
   font-weight: bold;
-  color: #1c304a;
+  color: #4d4d4f;
 }
 
 img {
   max-width: 40%;
   height: auto;
-}
-
-#title {
-  background-color: #046b99;
-  color: #ffffff;
 }
