@@ -11,7 +11,7 @@ h1 {
 }
 
 img {
-  align-self: center;
+  align-content: center;
   max-width: 30%;
   height: auto;
 }
