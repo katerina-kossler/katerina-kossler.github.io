@@ -10,13 +10,17 @@ body {
 h1 {
   font-size: 150%;
   font-weight: bold;
-  color: #333333;
+  color: #659d89;
 }
 
 h2 {
   font-size: 120%;
   font-weight: bold;
-  color: #4d4d4f;
+  color: #333333;
+}
+
+p {
+  color: #4d4d4f; 
 }
 
 img {
