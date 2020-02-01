@@ -1,6 +1,13 @@
+
+
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #f8f8f7;
+}
+
+header {
+  background-color: #659d89;
+  color: #f8f8f7;
 }
 
 h1 {
@@ -23,7 +30,6 @@ h2 {
 }
 
 h3 {
-  font-size: 110%;
   font-weight: bold;
 }
 
