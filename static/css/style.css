@@ -19,7 +19,7 @@ h2 {
 
 img {
   align-content: center;
-  max-width: 30%;
+  max-width: 25%;
   min-width: 100px;
   height: auto;
   display: inline-block;
@@ -63,5 +63,6 @@ a {
 
 #intro {
   display: inline-block;
+  align-items: center;
 }
 
