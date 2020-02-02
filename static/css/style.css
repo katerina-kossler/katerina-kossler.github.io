@@ -1,15 +1,18 @@
-body {
+html, body {
   font-family: 'Raleway', sans-serif;
   background-color: #f8f8f7;
+  heightight: 100%;
 }
 
 h1 {
+  margin-left: 15px;
   font-size: 130%;
   color: #659d89;
 }
 
 h2 {
   text-align: left;
+  margin-left: 15px;
   font-size: 110%;
   font-weight: bold;
   color: #333333;
@@ -17,20 +20,24 @@ h2 {
 
 img {
   align-content: center;
-  max-width: 20%;
+  max-width: 30%;
+  min-width: 100px;
   height: auto;
 }
 
 h3 {
+  margin-left: 15px;
   font-size: 100%;
   font-weight: bold;
   color: #333333;
 }
 
 p {
-  margin-top: -5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #4d4d4f; 
-  text-align: justify;
 }
 
 li {
@@ -42,9 +49,19 @@ a {
 }
 
 .left {
-  margin-right: 50px;
+  margin-right: 2px;
+  border-right: 2px solid #659d89;
 }
 
 .right {
-  margin-left: 50px; 
+  border-left: 2px solid #659d89;
+  margin-left: 2px; 
+}
+
+.center {
+  text-align: center;
+}
+
+span {
+  display: inline-block;
 }
