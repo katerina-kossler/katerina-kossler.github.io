@@ -5,7 +5,7 @@ html, body {
 }
 
 h1 {
-  font-size: 130%;
+  font-size: 180%;
   color: #659d89;
 }
 
@@ -66,3 +66,6 @@ a {
   align-items: center;
 }
 
+#goals {
+  padding-left: 20px;
+}
