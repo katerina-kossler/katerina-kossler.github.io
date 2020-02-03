@@ -45,17 +45,21 @@ a {
   color: #659d89;
 }
 
+
+
 .left {
   margin-right: 2px;
   border-right: 2px solid #659d89;
 }
 
 .right {
-  border-left: 2px solid #659d89;
   margin-left: 2px; 
+  border-left: 2px solid #659d89;
 }
 
 .center {
+  margin-left: 30%;
+  margin-right: 30%;
   text-align: center;
   align-items: center;
   justify-content: center;
