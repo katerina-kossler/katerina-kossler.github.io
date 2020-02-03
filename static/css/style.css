@@ -45,7 +45,10 @@ a {
   color: #659d89;
 }
 
-
+.text {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 .left {
   margin-right: 2px;
@@ -58,8 +61,8 @@ a {
 }
 
 .center {
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -70,7 +73,4 @@ a {
   align-items: center;
 }
 
-#goals {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
