@@ -1,3 +1,7 @@
 # katerina-kossler.github.io
 
-## Hello
+## A simple site for career exposure
+
+## Next Steps
+* implement increased formatting using bootstrap
+* test responsive design using React 
