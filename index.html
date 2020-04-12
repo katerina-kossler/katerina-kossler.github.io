@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!-- Bootstrap -->
@@ -11,9 +11,16 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
         crossorigin="anonymous"></script>
+  <!-- Title and Settings -->
   <title>Katerina Kossler</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS & Icons -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css" media='screen'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="static/favicon_io/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="static/favicon_io/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="static/favicon_io/favicon-16x16.png">
@@ -21,89 +28,121 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #1f497d;">
+    <a class="navbar-brand" href="#">Katerina Kossler</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links" 
+            aria-controls="links" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse topnav-right" id="links">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/static/asset/Resume_KosslerK.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </nav>
+  <section id="self" class="center">
+    <span class='row'>
+      <div id="intro" class=> 
+        <h1> Katerina Kossler</h1>
+        <p>
+          I want to dig my teeth into tough problems in an open, collaborative 
+          environment. 
+        </p>
+      </div>
+      <figure class=>
+        <img src="static/img/headshot.png" alt="Headshot at The Campanile" class="w-60">
+      </figure>
+    </span>
+  <!-- </section>
+  <section class="container">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#intro">Hello!</a></li>
+      <li><a data-toggle="tab" href="#prior_experience">Prior Experience</a></li>
+      <li><a data-toggle="tab" href="#hb">HackBright</a></li>
+      <li><a data-toggle="tab" href="#hb">Hiking Habit</a></li>
+      <li><a data-toggle="tab" href="#interests">Interests</a></li>
+    </ul>
 
-<section id="goals" class="center">
-  <div id="intro"> 
-    <h1> Katerina Kossler</h1>
-    <p>
-      I want to dig my teeth into tough problems in an open, collaborative 
-      environment. 
-    </p>
-  </div>
-  <figure>
-    <img src="static/img/headshot.png" alt="Headshot at The Campanile" class="w-50">
-  </figure>
-</section>
-
-<section id="prior_experience" class="right">
-  <div class="text">
-    <h2>Prior Experience</h2>
-    <p>
-        After getting my Chemical Engineering B.S. from UC Berkeley, I
-        joined Zymergen, an innovative, fast-paced biotechnology start-up
-        that leverages automation and machine learning to develop novel
-        products & materials and to produce highly improved strains. 
-        Over the past 1.5 years at this company, I have expanded my 
-        scientific and technical knowledge through working on a diverse set 
-        of projects:
-        <ul id="projects">
-            <li>Development of Python-based tools: an outlier detection tool & a data processing script</li>
-            <li>UAT of new data models & data processing tools</li>
-            <li>Develeopment & Implementation of screening methods to a production environment</li>
-            <li>DoE for high-throughput strain screening & Plate Screen
-            Development</li>
-            <li>Testing & client promotion of in-house built strains</li>
-        </ul> 
-    </p>
-  </div>
-</section>
-
-<section id="hb" class="left">
-  <div class="text">  
-    <h2>HackBright Academy</h2>
-    <p>
-       I am currently studying in HackBright Academy's full-stack web 
-       development course. In this cousrse, I am developing a full-stack web
-       application using a Python backend, flask web framework with Jinja 
-       templating, an open-source API, SQLAlchemy to access information, and 
-       Javascript. 
-    </p>
-  </div>
-</section>
-
-<section id="habit" class="right">
-  <div class="text">
-    <h3>Hiking Habit</h3>
-    <p>
-      I am currently working on my first full-stack web app that will be built using Python, SQLALchemy, & React that allows users to find local trails in their area, filter trails by key attributes, record hikes, leave reviews on hikes, and monitor their progress towards hiking goal(s).
-    </p>
-    <a href="https://www.github.com/katerina-kossler/hiking-habit">Project GitHub</a>
-  </div>  
-</section>
-
-<section id="interests" class="center">
-  <div class="text">
-    <h2>Interests</h2>
-    <p>
-      On weekends, you can find me backpacking in a state or national park, reading a novel by the likes of Murakami or Celeste Ng, grabbing a pint at a local favorite like Novel or Fieldworks, or playing board games like Sushi Go Party! or Hanabi.
-    </p>
-  </div>
-</section>
-
-<section id="details" class="center">
-    <p>
-      <a href="mailto:katerinakossler@gmail.com">Email</a>
-      |
-      <a href="https://www.linkedin.com/in/katerina-kossler/">LinkedIn</a>
-      |
-      <a href="https://github.com/katerina-kossler">GitHub</a>
-    </p>
-</section>
-
-<footer>
-    <p> &copy; Katerina Kossler. All rights reserved. </p>
-</footer>
-
+    <div class="tab-content">
+      <div id="intro" class="tab-pane fade in active">
+        <h1> Katerina Kossler</h1>
+        <p> I want to dig my teeth into tough problems in an open, collaborative 
+            environment. </p>
+      </div>
+      <section id="prior_experience" class="tab-pane fade">
+        <h2>Prior Experience</h2>
+        <p>
+            After getting my Chemical Engineering B.S. from UC Berkeley, I
+            joined Zymergen, an innovative, fast-paced biotechnology start-up
+            that leverages automation and machine learning to develop novel
+            products & materials and to produce highly improved strains. 
+            Over the past 1.5 years at this company, I have expanded my 
+            scientific and technical knowledge through working on a diverse set 
+            of projects:
+            <ul id="projects">
+                <li>Development of Python-based tools: an outlier detection tool & a data processing script</li>
+                <li>UAT of new data models & data processing tools</li>
+                <li>Develeopment & Implementation of screening methods to a production environment</li>
+                <li>DoE for high-throughput strain screening & Plate Screen
+                Development</li>
+                <li>Testing & client promotion of in-house built strains</li>
+            </ul> 
+        </p>
+      </section>
+      <section id="hb" class="tab-pane fade">
+        <h2>HackBright Academy</h2>
+        <p>
+          I am currently studying in HackBright Academy's full-stack web 
+          development course. In this cousrse, I am developing a full-stack web
+          application using a Python backend, flask web framework with Jinja 
+          templating, an open-source API, SQLAlchemy to access information, and 
+          Javascript. 
+        </p>
+      </section>
+      <section id="hiking-habit" class="tab-pane fade">
+        <h3>Hiking Habit</h3>
+        <p>
+          I am currently working on my first full-stack web app that will be built using Python, SQLALchemy, & React that allows users to find local trails in their area, filter trails by key attributes, record hikes, leave reviews on hikes, and monitor their progress towards hiking goal(s).
+        </p>
+        <a href="htts://hiking-habit.com">hiking-habit.com</a>
+        <a href="https://www.github.com/katerina-kossler/hiking-habit">Project GitHub</a>
+      </section>
+      <section id="interests" class="tab-pane fade">
+        <h2>Interests</h2>
+        <p>
+          On weekends, you can find me backpacking in a state or national park, 
+          reading a novel by the likes of Murakami or Celeste Ng, 
+          grabbing a pint at a local favorite like Novel or Fieldworks, 
+          or playing board games like Sushi Go Party! or Hanabi.
+        </p>
+      </section>
+    </div>
+    <section id="details" class="center">
+        <p>
+          <a href="mailto:katerinakossler@gmail.com">Email</a>
+          |
+          <a href="https://www.linkedin.com/in/katerina-kossler/">LinkedIn</a>
+          |
+          <a href="https://github.com/katerina-kossler">GitHub</a>
+        </p>
+    </section>
+  </section>   -->
+  <footer id='footer'>
+      <p> &copy; 2020 Katerina Kossler. Made with HTML, CSS, and Bootstrap </p>
+  </footer>
 </body>
 
 </html>

@@ -6,71 +6,15 @@ html, body {
 
 h1 {
   font-size: 180%;
-  color: #659d89;
+  color: #1f497d;
 }
 
-h2 {
-  text-align: left;
-  margin-left: 15px;
-  font-size: 110%;
-  font-weight: bold;
-  color: #333333;
+#nav {
+  background-color: #1f497d;
+  color: #f8f8f7;
 }
 
-img {
-  align-content: center;
-  max-width: 25%;
-  min-width: 100px;
-  height: auto;
-  display: inline-block;
+#foot {
+  background-color: #1f497d;
+  color: #f8f8f7;
 }
-
-h3 {
-  margin-left: 15px;
-  font-size: 100%;
-  font-weight: bold;
-  color: #333333;
-}
-
-p {
-  align-items: center;
-  color: #4d4d4f; 
-}
-
-li {
-  color: #4d4d4f; 
-}
-
-a {
-  color: #659d89;
-}
-
-.text {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.left {
-  margin-right: 2px;
-  border-right: 2px solid #659d89;
-}
-
-.right {
-  margin-left: 2px; 
-  border-left: 2px solid #659d89;
-}
-
-.center {
-  margin-left: 20%;
-  margin-right: 20%;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-#intro {
-  display: inline-block;
-  align-items: center;
-}
-
-
