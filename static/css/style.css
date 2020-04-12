@@ -9,6 +9,12 @@ h1 {
   color: #1f497d;
 }
 
+.center {
+  align-items: center;
+  text-align: center;
+}
+
+
 #nav {
   background-color: #1f497d;
   color: #f8f8f7;
