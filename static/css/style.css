@@ -25,6 +25,13 @@ h1 {
   justify-content: center;
 }
 
+.vertical-center {
+  min-height: 100%;  /* If browser isn't supporting vh unit */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 /* #foot {
   background-color: #1f497d;
   color: #f8f8f7;
