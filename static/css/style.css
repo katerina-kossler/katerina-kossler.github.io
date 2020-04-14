@@ -24,6 +24,7 @@ h1 {
 }
 
 .center {
+  margin: auto 5px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -33,7 +34,7 @@ h1 {
   min-height: 80%;  /* If browser isn't supporting vh unit */
   min-height: 80vh;
   position: relative;
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
