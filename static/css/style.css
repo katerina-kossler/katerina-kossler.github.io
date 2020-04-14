@@ -27,19 +27,14 @@ h1 {
   align-items: center;
   text-align: center;
   justify-content: center;
+  display: flex;
+  height: 100%
 }
 
 .full-height {
   min-height: 100%;  /* If browser isn't supporting vh unit */
   min-height: 100vh;
   position: relative;
-}
-
-.vertically-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%
 }
 
 #headshot {
