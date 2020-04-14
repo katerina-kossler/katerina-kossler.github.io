@@ -28,12 +28,11 @@ h1 {
   text-align: center;
   justify-content: center;
   display: flex;
-  height: 100%
 }
 
-.full-height {
-  min-height: 100%;  /* If browser isn't supporting vh unit */
-  min-height: 100vh;
+.long-height {
+  min-height: 80%;  /* If browser isn't supporting vh unit */
+  min-height: 80vh;
   position: relative;
 }
 
