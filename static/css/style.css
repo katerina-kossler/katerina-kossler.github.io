@@ -29,7 +29,7 @@ h1 {
   justify-content: center;
 }
 
-.vertical-center {
+.vertically-center {
   min-height: 100%;  /* If browser isn't supporting vh unit */
   min-height: 100vh;
   display: flex;
