@@ -37,6 +37,11 @@ h1 {
   min-height: 80vh;
   padding: 10%;
   padding: 10vh;
+  flex: 1 0 auto;
+}
+
+#footer {
+  flex-shrink: 0;
 }
 
 #headshot {
