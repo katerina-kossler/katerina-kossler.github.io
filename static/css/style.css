@@ -25,8 +25,8 @@ h1 {
 
 .center {
   margin: auto 5px;
-  min-height: 10%; /* If browser isn't supporting vh unit */
-  min-height: 10vh;
+  min-height: 5%; /* If browser isn't supporting vh unit */
+  min-height: 5vh;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -40,5 +40,7 @@ h1 {
 }
 
 #headshot {
-  max-height: 10em;
+  max-height: 15em;
+  min-height: 10%; /* If browser isn't supporting vh unit */
+  min-height: 10vh;
 }
