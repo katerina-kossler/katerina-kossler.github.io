@@ -35,6 +35,8 @@ h1 {
 .long-height {
   min-height: 80%;  /* If browser isn't supporting vh unit */
   min-height: 80vh;
+  padding: 10%;
+  padding: 10vh;
 }
 
 #headshot {
