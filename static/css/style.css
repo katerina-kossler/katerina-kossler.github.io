@@ -41,7 +41,9 @@ h1 {
 }
 
 #footer {
-  flex-shrink: 0;
+  background-color: #1f497d;
+  text-align: center;
+  justify-content: center;
 }
 
 #headshot {
