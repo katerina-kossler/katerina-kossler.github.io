@@ -23,6 +23,10 @@ h1 {
   color: #4D774D;
 }
 
+.navbar-nav a:hover {
+  border-bottom: 3px solid #4D774D;
+}
+
 .center {
   margin: auto 5px;
   min-height: 5%; /* If browser isn't supporting vh unit */
