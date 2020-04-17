@@ -65,6 +65,4 @@ h1 {
 
 #about {
   padding: 1rem;
-  min-width: 100%;  /* If browser isn't supporting vh unit */
-  min-width: 100vw;
 }
