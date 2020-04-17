@@ -37,9 +37,9 @@ h1 {
 }
 
 .long-height {
-  min-height: 80%;  /* If browser isn't supporting vh unit */
-  min-height: 80vh;
-  padding: 10%;
+  min-height: 100%;  /* If browser isn't supporting vh unit */
+  min-height: 100vh;
+  padding: 3rem;
   padding: 10vh;
   flex: 1 0 auto;
 }
