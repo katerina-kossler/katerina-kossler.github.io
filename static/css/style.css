@@ -62,7 +62,3 @@ h1 {
   min-height: 10%; /* If browser isn't supporting vh unit */
   min-height: 10vh;
 }
-
-#about {
-  padding: 1rem;
-}
