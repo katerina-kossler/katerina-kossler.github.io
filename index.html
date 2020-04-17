@@ -119,27 +119,31 @@
     </section>
     
     <section id="about" class="container">
-      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <a class="nav-link active" id="v-pills-work-tab" data-toggle="pill" href="#v-pills-work" 
-           role="tab" aria-controls="v-pills-home" aria-selected="true">
-          Work Experience
-        </a>
-        <a class="nav-link" id="v-pills-hb-tab" data-toggle="pill" href="#v-pills-hb"
-           role="tab" aria-controls="v-pills-home" aria-selected="false">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-work-tab" data-toggle="pill">
+            Work Experience
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-hb-tab" data-toggle="pill">
             HackBright
-        </a>
-        <a class="nav-link" id="v-pills-hiking-habit-tab" data-toggle="pill" href="#v-pills-hiking-habit"
-           role="tab" aria-controls="v-pills-home" aria-selected="false">
-          Hiking Habit
-        </a>
-        <a class="nav-link" id="v-pills-interests-tab" data-toggle="pill" href="#v-pills-interests"
-           role="tab" aria-controls="v-pills-home" aria-selected="false">
-          Interests
-        </a>
-      </div>
-      <div class="tab-content" id="v-pills-tabContent">
-        <section id="v-pills-work" role="tabpanel" class="tab-pane fade show active"
-                 aria-labelledby="v-pills-work-tab">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-hiking-habit-tab" data-toggle="pill">
+            Hiking Habit
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-interests-tab" data-toggle="pill">
+            Interests
+          </a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <section id="pills-work" role="tabpanel" class="tab-pane fade show active"
+                 aria-labelledby="pills-work-tab">
           <h2>Work Experience</h2>
           <p>
               After getting my Chemical Engineering B.S. from UC Berkeley, I
@@ -164,8 +168,8 @@
               </a>
           </p>
         </section>
-        <section id="v-pills-hb" role="tabpanel" class="tab-pane fade"
-                 aria-labelledby="v-pills-work-tab">
+        <section id="pills-hb" role="tabpanel" class="tab-pane fade"
+                 aria-labelledby="pills-work-tab">
           <h2>HackBright Academy</h2>
           <p>
             From October 2019 to April 2020, I studied in HackBright Academy's full-stack web 
@@ -173,8 +177,8 @@
             application using a PostgreSQL database, Flask app server, and a React front end.
           </p>
         </section>
-        <section id="v-pills-hiking-habit" role="tabpanel" class="tab-pane fade"
-                 aria-labelledby="v-pills-work-tab">
+        <section id="pills-hiking-habit" role="tabpanel" class="tab-pane fade"
+                 aria-labelledby="pills-work-tab">
           <h3>Hiking Habit</h3>
           <p>
             In this application, users can register, find local trails in their area based on search attributes, save trails
@@ -189,8 +193,8 @@
             </li>
           </ul>
         </section>
-        <section id="v-pills-interests" role="tabpanel" class="tab-pane fade"
-                 aria-labelledby="v-pills-work-tab">
+        <section id="pills-interests" role="tabpanel" class="tab-pane fade"
+                 aria-labelledby="pills-work-tab">
           <h2>Interests</h2>
           <p>
             On weekends, you can find me backpacking in a state or national park, 
