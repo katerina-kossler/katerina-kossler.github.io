@@ -62,3 +62,8 @@ h1 {
   min-height: 10%; /* If browser isn't supporting vh unit */
   min-height: 10vh;
 }
+
+#about {
+  min-width: 100%;  /* If browser isn't supporting vh unit */
+  min-width: 100vw;
+}
