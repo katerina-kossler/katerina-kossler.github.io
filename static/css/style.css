@@ -44,6 +44,11 @@ h1 {
   flex: 1 0 auto;
 }
 
+.vertically-center {
+  text-align: center; 
+  vertical-align: middle;
+}
+
 #footer {
   color: #f8f8f7;
   background-color: #4D774D;
