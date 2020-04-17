@@ -120,20 +120,32 @@
     </section>
     
     <section id="about" class="container">
-      <ul class="nav nav-tabs">
-        <li class="active">
-          <a data-toggle="tab" href="#prior_experience">
-            Prior Experience
+      <ul class="nav nav-tabs" id="tabGroup" role="tablist">
+        <li class="nav-item active">
+          <a class="nav-link" id="work-tab" data-toggle="tab" href="#work" role="tag">
+            Work Experience
           </a>
         </li>
-        <li><a data-toggle="tab" href="#hb">HackBright</a></li>
-        <li><a data-toggle="tab" href="#hiking-habit">Hiking Habit</a></li>
-        <li><a data-toggle="tab" href="#interests">Interests</a></li>
+        <li class="nav-item">
+          <a class="nav-link" id="hb-tab" data-toggle="tab" href="#hb" role="tag">
+             HackBright
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="hiking-habit-tab" data-toggle="tab" href="#hiking-habit" role="tag">
+            Hiking Habit
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="interests-tab" data-toggle="tab" href="#interests" role="tag">
+            Interests
+          </a>
+        </li>
       </ul>
   
-      <div class="tab-content">
-        <section id="prior_experience" class="tab-pane fade">
-          <h2>Prior Experience</h2>
+      <div class="tab-content" id="tabGroupContent">
+        <section id="work" role="tabpanel" class="tab-pane fade show active">
+          <h2>Work Experience</h2>
           <p>
               After getting my Chemical Engineering B.S. from UC Berkeley, I
               joined Zymergen, an innovative, fast-paced biotechnology start-up
@@ -157,7 +169,7 @@
               </a>
           </p>
         </section>
-        <section id="hb" class="tab-pane fade">
+        <section id="hb" role="tabpanel" class="tab-pane fade">
           <h2>HackBright Academy</h2>
           <p>
             From October 2019 to April 2020, I studied in HackBright Academy's full-stack web 
@@ -165,7 +177,7 @@
             application using a PostgreSQL database, Flask app server, and a React front end.
           </p>
         </section>
-        <section id="hiking-habit" class="tab-pane fade">
+        <section id="hiking-habit" role="tabpanel" class="tab-pane fade">
           <h3>Hiking Habit</h3>
           <p>
             In this application, users can register, find local trails in their area based on search attributes, save trails
@@ -180,7 +192,7 @@
             </li>
           </ul>
         </section>
-        <section id="interests" class="tab-pane fade">
+        <section id="interests" role="tabpanel" class="tab-pane fade">
           <h2>Interests</h2>
           <p>
             On weekends, you can find me backpacking in a state or national park, 
