@@ -49,6 +49,15 @@ h1 {
   vertical-align: middle;
 }
 
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 #footer {
   color: #f8f8f7;
   background-color: #4D774D;
