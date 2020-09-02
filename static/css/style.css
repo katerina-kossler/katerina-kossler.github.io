@@ -63,6 +63,9 @@ h1 {
   text-align: center;
   padding-top: 1rem;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #headshot {
