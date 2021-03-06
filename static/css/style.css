@@ -18,11 +18,15 @@ h1 {
 }
 
 h2 {
-  font-weight: 200%; 
+  font-weight: 150%; 
 }
 
 .navbar-nav a:hover {
   font-weight: 200;
+}
+
+.icon {
+  font-size: 150%;
 }
 
 .icon a:hover {
