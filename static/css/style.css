@@ -23,10 +23,6 @@ h1 {
   font-size: 150%;
 }
 
-.icon a:hover {
-  color: #4D774D;
-}
-
 .center {
   margin: auto 5px;
   min-height: 5%; /* If browser isn't supporting vh unit */
