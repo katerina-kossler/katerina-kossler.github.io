@@ -1,17 +1,11 @@
-/* Mediq Queries */
-/* 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
+/* Media Queries */
+#content-desktop {display: block;}
+#content-mobile {display: none;}
 
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
- */
+@media screen and (max-width: 768px) {
+  #content-desktop {display: none;}
+  #content-mobile {display: block;}
+}
 
 html, body {
   font-family: 'Raleway', sans-serif;
@@ -23,7 +17,15 @@ h1 {
   color: #4D774D;
 }
 
+h2 {
+  font-weight: 200%; 
+}
+
 .navbar-nav a:hover {
+  font-weight: 200;
+}
+
+.icon a:hover {
   border-bottom: 3px solid #4D774D;
 }
 
@@ -39,8 +41,16 @@ h1 {
 .long-height {
   min-height: 100%;  /* If browser isn't supporting vh unit */
   min-height: 100vh;
-  padding: 3rem;
+  padding: 4rem;
   padding: 10vh;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
   flex: 1 0 auto;
 }
 
