@@ -1,3 +1,3 @@
 # katerina-kossler.github.io
 
-## A simple site for career exposure
+## A simple site to explore frontend design concepts and generally have a professional prescence.
