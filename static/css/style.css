@@ -70,7 +70,6 @@ h1 {
 }
 
 #headshot {
-  max-height: 15em;
-  min-height: 10%; /* If browser isn't supporting vh unit */
-  min-height: 10vh;
+  width: 100%;
+  height: auto
 }
