@@ -63,8 +63,8 @@ h1 {
 }
 
 #footer {
-  color: #f8f8f7;
-  background-color: #4D774D;
+  color: #4D774D;
+  font-weight: bold;
   text-align: center;
   padding-top: 0.5rem;
   justify-content: center;
