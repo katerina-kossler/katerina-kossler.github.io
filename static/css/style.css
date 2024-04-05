@@ -11,7 +11,8 @@ html, body {
 }
 
 h1 {
-  font-size: 150%;
+  font-size: medium;
+  font-weight: 500;
   color: #4D774D;
 }
 
