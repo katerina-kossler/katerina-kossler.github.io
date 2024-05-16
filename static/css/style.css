@@ -1,6 +1,7 @@
 html, body {
   font-family: 'Raleway', sans-serif;
   background-color: #f8f8f7;
+  margin: 0;
 }
 
 h1 {
@@ -53,6 +54,6 @@ h1 {
 }
 
 #headshot {
-  width: fit-content;
+  width: 100%;
   height: auto
 }
