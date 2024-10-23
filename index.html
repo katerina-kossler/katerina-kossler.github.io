@@ -1,139 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- General HTML Settings - have importance for mobile browsing -->
-  <meta charset="uft-8"> 
-  <meta name="viewport" 
+  <meta charset="uft-8">
+  <meta name="viewport"
         content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kat's Static Portfolio Site">
-  <meta name="author" content="Katerina Kossler">   
+  <meta name="description" content="Katerina Kossler's Static Portfolio Site">
+  <meta name="author" content="Katerina Kossler">  
   <title>Katerina Kossler</title>
-  <!-- JQuery & Popper -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-          crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
-          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
-          crossorigin="anonymous"></script>
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-      crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
-      crossorigin="anonymous"></script>
-  <!-- CSS -->
+
   <link rel="stylesheet" type="text/css" href="static/css/style.css" media='screen'>
-  <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/148eb11949.js" crossorigin="anonymous"></script>
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-  <!-- Favicon -->
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@400,600;1,600&display=swap" rel="stylesheet">
+
+  <!-- TODO: GA for tracking / experience -->
+
   <link rel="apple-touch-icon" sizes="180x180" href="static/favicon_io/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="static/favicon_io/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="static/favicon_io/favicon-16x16.png">
   <link rel="manifest" href="static/favicon_io/site.webmanifest">
 </head>
 <body>
-  <header>
-    <nav class="row navbar navbar-expand-md navbar-dark sticky-top px-4 px-md-2 text-center text-sm-left" 
-      style="background-color: #1f497d;">
-      <div class="container-fluid">
-        <a class="navbar-brand font-weight-bold text-center text-sm-left" href="/" style="font-size: medium;">Katerina Kossler</a>
-        <button class="navbar-toggler" type="button" 
-                data-toggle="collapse" data-target="#resources"
-              aria-controls="resources" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="resources">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/" rel="noopener noreferrer">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/ShelterTechSF/askdarcel-api"
-                target="_blank" rel="noopener noreferrer">
-                ShelterTechSF
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.github.com/katerina-kossler/hiking-habit"
-                target="_blank" rel="noopener noreferrer">
-                Hiking Habit
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="static/asset/Resume_KosslerK.pdf"
-                target="_blank" rel="noopener noreferrer">
-                Resume
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <div role="headshot">
-    <img src="static/img/headshot.png" alt="photo of Katerina Kossler" id="headshot">
-  </div>
-  <main role="main" class="long-height container ">
-    <div class="row center flex-container pt-1 pb-2 w-80">
-      <a class="icon px-2" href="mailto:katerinakossler.contact@gmail.com" target="_blank" 
-          rel="noopener noreferrer" style="color: #1f497d;" alt="email icon">
-        <i class="fas fa-envelope"></i> 
+  <nav>
+    <div class="left">
+      <a href="/">Katerina Kossler</a>
+    </div>
+    <div class="right">
+      <a href="http://github.com/katerina-kossler" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
       </a>
-      <a class="icon px-2" href="https://calendly.com/katerinakossler" target="_blank" 
-        rel="noopener noreferrer" style="color: #1f497d;" alt="calendar icon">
-         <i class="fas fa-calendar-times"></i> 
+      <a href="linkedin.com/in/katerina-kossler/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
       </a>
-      <a class="icon px-2" href="https://www.linkedin.com/in/katerina-kossler/" target="_blank"
-          rel="noopener noreferrer" style="color: #1f497d;" alt="LinkedIn icon">
-        <i class="fab fa-linkedin"></i> 
+      <a href="https://calendly.com/katerinakossler" target="_blank" rel="noopener noreferrer">
+        <i class="fas fa-calendar-times"></i>
+        <span>Calendly</span>
       </a>
-      <a class="icon px-2" href="https://github.com/katerina-kossler" target="_blank" 
-          rel="noopener noreferrer" style="color: #1f497d;" alt="GitHub icon">
-        <i class="fab fa-github-square"></i> 
+      <a href="https://github.com/ShelterTechSF" target="_blank" rel="noopener no-referrer">
+        <i class="fa-solid fa-square-full" style="color: #116dff"></i>
+        <span>ShelterTechSF</span>
+      </a>
+      <a href="mailto:katerinakossler@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
       </a>
     </div>
-    <h1>A Bit About Me</h1>
-    <p>
-      After getting a Chemical Engineering B.S. from UC Berkeley, I
-      worked at <a href="https://www.zymergen.com/" target="_blank" rel="noopener noreferrer">Zymergen</a>, 
-      a start-up in the biotechnology space,
-      where I found a love for programming while using automation
-      and software to help solve problems in the Agricultural space.
-      </p>
-    <p>
-      In the fall of 2019, I studied in HackBright Academy's full-stack web 
-      development bootcamp. In two months of the course, I developed and deployed a full-stack web
-      application using a PostgreSQL database, Flask app server, and a React front end. Check out the project repo  
-      <a href="https://www.github.com/katerina-kossler/hiking-habit">here</a>!
-    <p>
-      After graduating, I worked as a Solutions Engineer at <a href="https://www.datadoghq.com/" target="_blank" 
-      rel="noopener noreferrer">Datadog</a>. Here I learned how to serve techinical customers and became
-      exposed to the joys and struggles of DevOps.
-    </p>
-    <p>
-      Today, I am a Back-end Engineer on the Platform team at <a href="https://www.autolist.com/" target="_blank" 
-      rel="noopener noreferrer">Autolist</a>.
-    </p>
-    <h1>Interests</h1>
-    <p>
-      I volunteer as a Developer to <a href="https://github.com/ShelterTechSF/askdarcel-api" 
-      target="_blank" rel="noopener noreferrer">ShelterTechSF</a>; we work to help connect individuals experiencing 
-      homelessness to resources in the SF area. 
-    </p>
-    <p>
-      I spend my time looking for birds, writing poems, and playing board games.
-    </p>
+  </nav>
+  <main>
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Katerina</h2>
+        <p>
+          I'm a backend engineering focused on building fast and reliable applications and infrastructure. In my free time I love to make art, look for birds, and work on my yoga practice.
+        </p>
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          <a href="#about">
+            <i class="fa-solid fa-pen"></i>
+            <span>About Me</span>
+          </a>
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+      <div class="headshot">
+        <img src="static/img/headshot.png" alt="photo of Katerina Kossler">
+      </div>
+    </section>
+    <section id="about" class="about-section">
+      <div class="text">
+        <h2>A Bit About Me</h2>
+        <p>
+          I got a B.S. in Chemical Engineering B.S. from UC Berkeley and spent two years working at <a href="https://www.zymergen.com/" target="_blank" rel="noopener noreferrer">Zymergen</a>, a start-up in the biotechnology space. Here, I found a love for programming while I used automation and software to help solve problems in the Agricultural space.
+        </p>
+        <p>
+          I got my fundamentals by going to HackBright Academy's full-stack web development bootcamp during weeknights and weekends. Here, I developed and deployed my first full-stack web application using a PostgreSQL database, Flask app server, and a React front end. Check out the project repo <a href="https://www.github.com/katerina-kossler/hiking-habit">here</a>!
+        </p>
+        <p>
+          After graduating, I had a brief stint working as a Solutions Engineer at <a href="https://www.datadoghq.com/" target="_blank" rel="noopener noreferrer">Datadog</a>. Here, I learned how to serve techinical customers and became exposed to the joys and struggles of DevOps.
+        </p>
+        <p>
+          Today, I am a Backend Engineer on the Platform team at <a href="https://www.cargurus.com/" target="_blank" rel="noopener noreferrer">CarGurus</a> within the <a href="https://www.autolist.com/" target="_blank" rel="noopener noreferrer">Autolist</a> brand. I spend my time interfacing with stakeholders, design and building APIs, building internal systems, and building infrastructure on demand.
+        </p>
+        <p>
+          I also volunteer as a Developer to <a href="https://github.com/ShelterTechSF/" target="_blank" rel="noopener noreferrer">ShelterTechSF</a>; we work to help connect individuals experiencing homelessness to resources in the SF area. (Please reach out if you are interested in volunteering!)
+        </p>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <div class="text">
+        <h2>Contact Me</h2>
+        <div class="links">
+          <a href="linkedin.com/in/katerina-kossler/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+          </a>
+          <a href="mailto:katerinakossler@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+          </a>
+          <a href="https://calendly.com/katerinakossler" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-calendar-times"></i>
+            <span>Calendly</span>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
-    <div id="footer">
-      <p> 
+    <div id="footer" class="footer">
+      <span>
         &copy; 2024 Katerina Kossler. Have a lovely day!
-      </p>
+      </span>
     </div>
   </footer>
 </body>
